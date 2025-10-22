@@ -2,7 +2,7 @@ import { Sequelize } from "sequelize";
 
 export const sequelize = new Sequelize("chatdb", "root", "root", {
   host: "localhost",
-  dialect: "mysql", // bisa diganti: 'postgres'
+  dialect: "mysql", 
   logging: false,
 });
 
